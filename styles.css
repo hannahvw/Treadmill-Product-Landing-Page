@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e0e0e0;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  background-color: #eeeeee;
+  padding: 20px;
+  width: 100%;
+}
+
+#header-img {
+  width: 75px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+h1 {
+  color: black;
+  font-size: 2.5em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  list-style: none;
+  font-size: 1.2em;
+}
+
+#nav-bar li a {
+  padding: 0 20px;
+  color: rgb(20, 30, 40);
+  text-decoration: none;
+}
+
+#nav-bar li a:hover {
+  color: #00beef;
+}
+
+#products {
+  margin-top: 150px;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#merchandise {
+  margin: 0px 100px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.item {
+  border: 2px solid rgb(20, 30, 40);
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.item img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.item h3 {
+  padding: 10px 0;
+  font-size: 1.5em;
+}
+
+.item h4 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.item li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+#how-it-works {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#how-it-works h3 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+#how-it-works p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 70px;
+}
+
+#form {
+  border: none;
+  padding: 5px;
+  width: 500px;
+  margin: 0 auto 50px;
+  display: grid;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+#submit {
+  background-color: rgb(20, 30, 40);
+  color: #00beef;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: #00beef;
+  color: rgb(20, 30, 40);
+}
+
+textarea {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(20, 30, 40);
+  padding: 20px 0 20px;
+}
+
+footer p {
+  text-align: center;
+  margin-bottom: 0;
+  color: #00beef;
+}
