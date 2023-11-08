@@ -161,3 +161,10 @@ footer p {
   margin-bottom: 0;
   color: #00beef;
 }
+
+@media (max-width: 1200px) {
+  #merchandise {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}
